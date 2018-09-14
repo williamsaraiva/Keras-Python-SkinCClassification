@@ -10,8 +10,8 @@ img_width, img_height = 150, 150
 
 train_data_dir = 'data/train'
 validation_data_dir = 'data/validation'
-nb_train_samples = 2000
-nb_validation_samples = 800
+nb_train_samples = 600
+nb_validation_samples = 240
 epochs = 50
 batch_size = 16
 
@@ -47,8 +47,8 @@ model.compile(loss='binary_crossentropy',
 # this is the augmentation configuration we will use for training
 train_datagen = ImageDataGenerator(
     rescale=1. / 255,
-    shear_range=0.2,
-    zoom_range=0.2,
+    shear_range=0.22,
+    zoom_range=0.22,
     horizontal_flip=True)
 
 # this is the augmentation configuration we will use for testing:
