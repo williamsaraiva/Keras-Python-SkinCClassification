@@ -29,3 +29,5 @@ Very Deep Convolutional Networks for Large-Scale Image Recognition: https://arxi
 
 License
 These weights are ported from the ones <a href='http://www.robots.ox.ac.uk/~vgg/research/very_deep/'>released by VGG at Oxford</a> under the <a href='https://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution License.</a>
+
+Source font: https://keras.io/applications/#vgg16
